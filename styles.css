@@ -1,0 +1,178 @@
+/* Reset and global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main content styles */
+main {
+  padding: 2rem;
+}
+
+.hero {
+  background-color: #f2f2f2;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.services {
+  margin-top: 2rem;
+}
+
+.service-tiles {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.tile {
+  background-color: #f2f2f2;
+  padding: 1.5rem;
+  margin: 1rem;
+  text-align: center;
+  flex-basis: 300px;
+}
+
+.tile a {
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration: none;
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+/* Login and Register styles */
+.login-section,
+.register-section {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+}
+
+.login-section h2,
+.register-section h2 {
+  margin-bottom: 1rem;
+}
+
+.login-section form,
+.register-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-section form div,
+.register-section form div {
+  margin-bottom: 1rem;
+}
+
+.login-section form label,
+.register-section form label {
+  font-weight: bold;
+}
+
+.login-section form input,
+.register-section form input {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.login-section form button,
+.register-section form button {
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Inventory styles */
+.inventory-section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.table-selection {
+  margin-bottom: 1rem;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+.actions {
+  margin-top: 1rem;
+}
+
+.actions button {
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}

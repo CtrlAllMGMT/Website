@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inventory - Car Service Center</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html">Car Service Center</a>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="inventory.html">Inventory</a></li>
+        <li><a href="invoicing.html">Invoicing</a></li>
+        <li><a href="sales.html">Sales</a></li>
+        <li><a href="login.html">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="inventory-section">
+      <h2>Inventory</h2>
+      <div class="table-selection">
+        <label for="tableSelect">Select Table:</label>
+        <select id="tableSelect">
+          <option value="parts">Parts</option>
+          <option value="vehicles">Vehicles</option>
+          <option value="customers">Customers</option>
+        </select>
+      </div>
+      <div class="table-container">
+        <table id="dataTable">
+          <thead>
+            <tr>
+              <!-- Table headers will be dynamically generated -->
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Table rows will be dynamically generated -->
+          </tbody>
+        </table>
+      </div>
+      <div class="actions">
+        <button id="addRowBtn">Add Row</button>
+        <button id="deleteRowBtn">Delete Row</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Car Service Center. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
